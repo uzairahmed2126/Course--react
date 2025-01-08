@@ -1,19 +1,28 @@
 import { useState, useRef } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+// import Practice from "./components/practice/Practice";
+
+import { Jsx, Withoutjsx } from "./components/index";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [src, setSrc] = useState(`https://picsum.photos/id/${count}/200/300`);
   const inputRef = useRef(null);
   const handleBtn = (e) => {
     // count++;
     setCount((prev) => prev + 1);
+    setSrc(
+      `https://picsum.photos/id/${Math.floor(Math.random() * 200)}/200/300`
+    );
   };
   return (
     <>
-      <h1> {count}</h1>
+      <Jsx />
+      <Withoutjsx />
+      <h3>Counter App using Functional Components : </h3>
+      <img src={src} alt="oops" />
       <button onClick={handleBtn}>Click me</button>
+      
     </>
   );
 }
