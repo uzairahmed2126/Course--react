@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
 import "./App.css";
 // import Practice from "./components/practice/Practice";
-
-import { Jsx, Withoutjsx } from "./components/index";
+import Props from "./components/props/Props";
+// import { Jsx, Withoutjsx } from "./components/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,26 +17,22 @@ function App() {
   };
   return (
     <>
-      <Jsx />
-      <Withoutjsx />
-      <h3>Counter App using Functional Components : </h3>
+      {/* <Jsx />
+      <Withoutjsx /> */}
+      <Props name="john" />
+      <p>this is children props</p>
+      <Props/>
+      {/* <Props name="jack" />
+      <Props name="eric" />
+      <Props name="kyle" /> */}
+      <div>
+      {/* <Props><h1>this is children props</h1></Props> */}
+      </div>
+      {/* <h3>Counter App using Functional Components : </h3>
       <img src={src} alt="oops" />
-      <button onClick={handleBtn}>Click me</button>
-      
+      <button onClick={handleBtn}>Click me</button> */}
     </>
   );
 }
 
 export default App;
-// const inputRef = useRef(null);
-
-// const focusInput = () => {
-//   inputRef.current.focus(); // Accesses and focuses the input element
-// };
-
-// return (
-//   <div>
-//     <input type="text" ref={inputRef} />
-//     <button onClick={focusInput}>Focus Input</button>
-//   </div>
-// );
