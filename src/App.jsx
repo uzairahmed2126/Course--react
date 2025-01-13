@@ -3,6 +3,7 @@ import "./App.css";
 import Props from "./components/props/Props";
 // import { Jsx, Withoutjsx } from "./components/index";
 import { CounterUsingProps, NextImageProps, Message } from "./components/index";
+import SetState from "./components/setState/SetState";
 
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <>
+      <SetState />
       {/* props and state paractice */}
       <Message />
       <CounterUsingProps handleClickFn={handleClickEvent}>
