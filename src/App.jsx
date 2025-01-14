@@ -2,9 +2,13 @@ import { useState, useRef, useTransition } from "react";
 import "./App.css";
 import Props from "./components/props/Props";
 // import { Jsx, Withoutjsx } from "./components/index";
-import { CounterUsingProps, NextImageProps, Message } from "./components/index";
+import {
+  CounterUsingProps,
+  NextImageProps,
+  Message,
+  Destructuring,
+} from "./components/index";
 import SetState from "./components/setState/SetState";
-
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
   const [count, setCount] = useState(0);
@@ -18,16 +22,18 @@ function App() {
 
   return (
     <>
-      <SetState />
+      <Destructuring firstName={"Uzair"} 
+      lastName={"Ahmed"} />
+      {/* <SetState /> */}
       {/* props and state paractice */}
-      <Message />
+      {/* <Message />
       <CounterUsingProps handleClickFn={handleClickEvent}>
         <h1>{count}</h1>
       </CounterUsingProps>
       <NextImageProps
         src={src}
         alt={`Image Not Found on this id:${randomNum}`}
-      />
+      /> */}
       {/* <Jsx />
       <Withoutjsx /> */}
       {/* <Props name="john" />
