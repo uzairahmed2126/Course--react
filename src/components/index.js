@@ -10,7 +10,7 @@ import Props from "./props/Props";
 import Practice from "./practice/Practice";
 import Message from "./message/Message";
 import Destructuring from "./12.destructuring/Destructuring";
-
+import Event from "./event handler/Event";
 export {
   Jsx,
   Withoutjsx,
@@ -20,4 +20,5 @@ export {
   Practice,
   Message,
   Destructuring,
+  Event,
 };

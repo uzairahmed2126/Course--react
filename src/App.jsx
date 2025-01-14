@@ -7,6 +7,7 @@ import {
   NextImageProps,
   Message,
   Destructuring,
+  Event
 } from "./components/index";
 import SetState from "./components/setState/SetState";
 function App() {
@@ -22,8 +23,9 @@ function App() {
 
   return (
     <>
-      <Destructuring firstName={"Uzair"} 
-      lastName={"Ahmed"} />
+      <Event/>
+      {/* <Destructuring firstName={"Uzair"} 
+      lastName={"Ahmed"} /> */}
       {/* <SetState /> */}
       {/* props and state paractice */}
       {/* <Message />
