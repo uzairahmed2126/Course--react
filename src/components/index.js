@@ -10,7 +10,8 @@ import Props from "./props/Props";
 import Practice from "./practice/Practice";
 import Message from "./message/Message";
 import Destructuring from "./12.destructuring/Destructuring";
-import Event from "./event handler/Event";
+// import Event from "./13.event handler";
+import BindingEventHandlers from "./14.binding event handlers/BindingEventHandlers";
 export {
   Jsx,
   Withoutjsx,
@@ -20,5 +21,6 @@ export {
   Practice,
   Message,
   Destructuring,
-  Event,
+  // Event,
+  BindingEventHandlers
 };

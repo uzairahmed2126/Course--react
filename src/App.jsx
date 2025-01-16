@@ -7,7 +7,8 @@ import {
   NextImageProps,
   Message,
   Destructuring,
-  Event
+  BindingEventHandlers
+  
 } from "./components/index";
 import SetState from "./components/setState/SetState";
 function App() {
@@ -23,7 +24,8 @@ function App() {
 
   return (
     <>
-      <Event/>
+    <BindingEventHandlers/>
+      {/* <Event/> */}
       {/* <Destructuring firstName={"Uzair"} 
       lastName={"Ahmed"} /> */}
       {/* <SetState /> */}
