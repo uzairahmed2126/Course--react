@@ -9,7 +9,7 @@ class BindingEventHandlers extends Component {
     };
     // this.handleClick = this.handleClick.bind(this);
   }
-  handleClick(){
+  handleClick=()=>{
     this.setState({
       msg: "Good Bye!",
     });

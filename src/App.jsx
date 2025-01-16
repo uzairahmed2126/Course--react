@@ -1,16 +1,17 @@
 import { useState, useRef, useTransition } from "react";
 import "./App.css";
-import Props from "./components/props/Props";
-// import { Jsx, Withoutjsx } from "./components/index";
 import {
+  Props,
+  Jsx,
+  Withoutjsx,
   CounterUsingProps,
   NextImageProps,
   Message,
   Destructuring,
-  BindingEventHandlers
-  
+  BindingEventHandlers,
+  SetState,
+  MethodAsPropsParent,
 } from "./components/index";
-import SetState from "./components/setState/SetState";
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
   const [count, setCount] = useState(0);
@@ -24,7 +25,8 @@ function App() {
 
   return (
     <>
-    <BindingEventHandlers/>
+      <MethodAsPropsParent />
+      {/* <BindingEventHandlers/> */}
       {/* <Event/> */}
       {/* <Destructuring firstName={"Uzair"} 
       lastName={"Ahmed"} /> */}
