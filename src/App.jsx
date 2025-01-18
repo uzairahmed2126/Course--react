@@ -11,6 +11,7 @@ import {
   BindingEventHandlers,
   SetState,
   MethodAsPropsParent,
+  ConditionalRendering
 } from "./components/index";
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
@@ -25,7 +26,8 @@ function App() {
 
   return (
     <>
-      <MethodAsPropsParent />
+    <ConditionalRendering/>
+      {/* <MethodAsPropsParent /> */}
       {/* <BindingEventHandlers/> */}
       {/* <Event/> */}
       {/* <Destructuring firstName={"Uzair"} 

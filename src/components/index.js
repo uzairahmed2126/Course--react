@@ -1,4 +1,4 @@
-// components are useally  called functions and they are rendring in root file that is main file and the app file contains child components
+// components are useally  called functions and they are rendering in root file that is main file and the app file contains child components
 // Stateful = Logic + State Management + UI updates.
 // Stateless = UI Presentation with props only.
 
@@ -15,6 +15,7 @@ import Destructuring from "./12.destructuring/Destructuring";
 import BindingEventHandlers from "./14.binding event handlers/BindingEventHandlers";
 import MethodAsPropsParent from "./MethodAsPropsParent/Index";
 import MethodAsPropsChild from "./MethodAsPropsChild/Index";
+import ConditionalRendering from './ConditionalRendering/index'
 export {
   Jsx,
   Withoutjsx,
@@ -29,4 +30,5 @@ export {
   BindingEventHandlers,
   MethodAsPropsParent,
   MethodAsPropsChild,
+  ConditionalRendering
 };
