@@ -11,7 +11,9 @@ import {
   BindingEventHandlers,
   SetState,
   MethodAsPropsParent,
-  ConditionalRendering
+  ConditionalRendering,
+  ListRendering,
+  PersonList,
 } from "./components/index";
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
@@ -26,7 +28,9 @@ function App() {
 
   return (
     <>
-    <ConditionalRendering/>
+      <ListRendering />
+      {/* <PersonList /> */}
+      {/*<ConditionalRendering /> */}
       {/* <MethodAsPropsParent /> */}
       {/* <BindingEventHandlers/> */}
       {/* <Event/> */}

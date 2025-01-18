@@ -8,14 +8,16 @@ import CounterUsingProps from "./counterUsingProps/CounterUsingProps";
 import NextImageProps from "./nextImageProps/NextImageProps";
 import Props from "./props/Props";
 import Practice from "./practice/Practice";
-import SetState from "./setState/SetState"
+import SetState from "./setState/SetState";
 import Message from "./message/Message";
 import Destructuring from "./12.destructuring/Destructuring";
 // import Event from "./13.event handler";
 import BindingEventHandlers from "./14.binding event handlers/BindingEventHandlers";
 import MethodAsPropsParent from "./MethodAsPropsParent/Index";
 import MethodAsPropsChild from "./MethodAsPropsChild/Index";
-import ConditionalRendering from './ConditionalRendering/index'
+import ConditionalRendering from "./ConditionalRendering/index";
+import ListRendering from "./ListRendering/nameList";
+import PersonList from "./PersonList/personList";
 export {
   Jsx,
   Withoutjsx,
@@ -30,5 +32,7 @@ export {
   BindingEventHandlers,
   MethodAsPropsParent,
   MethodAsPropsChild,
-  ConditionalRendering
+  ConditionalRendering,
+  ListRendering,
+  PersonList,
 };
