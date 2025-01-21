@@ -14,6 +14,7 @@ import {
   ConditionalRendering,
   ListRendering,
   PersonList,
+  ListAndKeys,
 } from "./components/index";
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
@@ -28,7 +29,8 @@ function App() {
 
   return (
     <>
-      <ListRendering />
+    <ListAndKeys/>
+      {/* <ListRendering /> */}
       {/* <PersonList /> */}
       {/*<ConditionalRendering /> */}
       {/* <MethodAsPropsParent /> */}
