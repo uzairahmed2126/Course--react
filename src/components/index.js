@@ -18,6 +18,7 @@ import MethodAsPropsChild from "./MethodAsPropsChild/Index";
 import ConditionalRendering from "./ConditionalRendering/index";
 import ListRendering from "./ListRendering/nameList";
 import PersonList from "./PersonList/personList";
+import ListAndKeys from "./ListAndKeys/index";
 export {
   Jsx,
   Withoutjsx,
@@ -35,4 +36,5 @@ export {
   ConditionalRendering,
   ListRendering,
   PersonList,
+  ListAndKeys,
 };
