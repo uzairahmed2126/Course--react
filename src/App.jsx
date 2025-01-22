@@ -14,7 +14,8 @@ import {
   ConditionalRendering,
   ListRendering,
   PersonList,
-  ListAndKeys,
+  // ListAndKeys,
+  KeyAndPattern,
 } from "./components/index";
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
@@ -29,7 +30,8 @@ function App() {
 
   return (
     <>
-    <ListAndKeys/>
+      <KeyAndPattern />
+      {/* <ListAndKeys/> */}
       {/* <ListRendering /> */}
       {/* <PersonList /> */}
       {/*<ConditionalRendering /> */}

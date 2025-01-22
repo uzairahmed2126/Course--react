@@ -19,6 +19,7 @@ import ConditionalRendering from "./ConditionalRendering/index";
 import ListRendering from "./ListRendering/nameList";
 import PersonList from "./PersonList/personList";
 import ListAndKeys from "./ListAndKeys/index";
+import KeyAndPattern from "./KeyAndPattern/";
 export {
   Jsx,
   Withoutjsx,
@@ -37,4 +38,5 @@ export {
   ListRendering,
   PersonList,
   ListAndKeys,
+  KeyAndPattern
 };
