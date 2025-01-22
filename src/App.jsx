@@ -15,7 +15,8 @@ import {
   ListRendering,
   PersonList,
   // ListAndKeys,
-  KeyAndPattern,
+  // KeyAndPattern,
+  WayOfStyling,
 } from "./components/index";
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
@@ -30,7 +31,9 @@ function App() {
 
   return (
     <>
-      <KeyAndPattern />
+    <WayOfStyling />
+      {/* <WayOfStyling primary={true} /> */}
+      {/* <KeyAndPattern /> */}
       {/* <ListAndKeys/> */}
       {/* <ListRendering /> */}
       {/* <PersonList /> */}

@@ -20,6 +20,7 @@ import ListRendering from "./ListRendering/nameList";
 import PersonList from "./PersonList/personList";
 import ListAndKeys from "./ListAndKeys/index";
 import KeyAndPattern from "./KeyAndPattern/";
+import WayOfStyling from "./WayOfStyling/";
 export {
   Jsx,
   Withoutjsx,
@@ -38,5 +39,6 @@ export {
   ListRendering,
   PersonList,
   ListAndKeys,
-  KeyAndPattern
+  KeyAndPattern,
+  WayOfStyling,
 };
