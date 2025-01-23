@@ -1,4 +1,5 @@
 import { useState, useRef, useTransition } from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import {
   Props,
@@ -17,7 +18,9 @@ import {
   // ListAndKeys,
   // KeyAndPattern,
   WayOfStyling,
+  FormHandling
 } from "./components/index";
+
 function App() {
   let randomNum = Math.floor(Math.random() * 200);
   const [count, setCount] = useState(0);
@@ -31,7 +34,8 @@ function App() {
 
   return (
     <>
-    <WayOfStyling />
+      <FormHandling />
+      {/* <WayOfStyling /> */}
       {/* <WayOfStyling primary={true} /> */}
       {/* <KeyAndPattern /> */}
       {/* <ListAndKeys/> */}

@@ -21,6 +21,7 @@ import PersonList from "./PersonList/personList";
 import ListAndKeys from "./ListAndKeys/index";
 import KeyAndPattern from "./KeyAndPattern/";
 import WayOfStyling from "./WayOfStyling/";
+import FormHandling from "./FormHandling";
 export {
   Jsx,
   Withoutjsx,
@@ -41,4 +42,5 @@ export {
   ListAndKeys,
   KeyAndPattern,
   WayOfStyling,
+  FormHandling,
 };
