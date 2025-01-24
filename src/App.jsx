@@ -18,7 +18,8 @@ import {
   // ListAndKeys,
   // KeyAndPattern,
   WayOfStyling,
-  FormHandling
+  FormHandling,
+  MountingPhase,
 } from "./components/index";
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
 
   return (
     <>
-      <FormHandling />
+      <MountingPhase />
+      {/* <FormHandling /> */}
       {/* <WayOfStyling /> */}
       {/* <WayOfStyling primary={true} /> */}
       {/* <KeyAndPattern /> */}

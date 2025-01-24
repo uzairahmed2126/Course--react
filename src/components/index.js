@@ -22,6 +22,8 @@ import ListAndKeys from "./ListAndKeys/index";
 import KeyAndPattern from "./KeyAndPattern/";
 import WayOfStyling from "./WayOfStyling/";
 import FormHandling from "./FormHandling";
+import MountingPhase from "./MountingPhase/indexA";
+import MountingPhaseB from "./MountingPhaseB/indexB";
 export {
   Jsx,
   Withoutjsx,
@@ -43,4 +45,6 @@ export {
   KeyAndPattern,
   WayOfStyling,
   FormHandling,
+  MountingPhase,
+  MountingPhaseB,
 };
