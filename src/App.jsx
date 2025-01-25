@@ -20,6 +20,7 @@ import {
   WayOfStyling,
   FormHandling,
   MountingPhase,
+  ComponentUpdateCycleA,
 } from "./components/index";
 
 function App() {
@@ -35,7 +36,8 @@ function App() {
 
   return (
     <>
-      <MountingPhase />
+      <ComponentUpdateCycleA />
+      {/* <MountingPhase /> */}
       {/* <FormHandling /> */}
       {/* <WayOfStyling /> */}
       {/* <WayOfStyling primary={true} /> */}

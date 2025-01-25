@@ -24,6 +24,7 @@ import WayOfStyling from "./WayOfStyling/";
 import FormHandling from "./FormHandling";
 import MountingPhase from "./MountingPhase/indexA";
 import MountingPhaseB from "./MountingPhaseB/indexB";
+import ComponentUpdateCycleA from "./ComponentUpdatingCycleA";
 export {
   Jsx,
   Withoutjsx,
@@ -47,4 +48,5 @@ export {
   FormHandling,
   MountingPhase,
   MountingPhaseB,
+  ComponentUpdateCycleA,
 };
