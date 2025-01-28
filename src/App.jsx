@@ -1,4 +1,4 @@
-import { useState, useRef, useTransition } from "react";
+import React, { useState, useRef, useTransition } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import {
@@ -21,6 +21,9 @@ import {
   FormHandling,
   MountingPhase,
   ComponentUpdateCycleA,
+  Fragment,
+  FragmentTable,
+  FragmentTd,
 } from "./components/index";
 
 function App() {
@@ -35,8 +38,10 @@ function App() {
   }
 
   return (
-    <>
-      <ComponentUpdateCycleA />
+    <React.Fragment>
+      <FragmentTable />
+      {/* <Fragment /> */}
+      {/* <ComponentUpdateCycleA /> */}
       {/* <MountingPhase /> */}
       {/* <FormHandling /> */}
       {/* <WayOfStyling /> */}
@@ -76,7 +81,7 @@ function App() {
       {/* <h3>Counter App using Functional Components : </h3>
       <img src={src} alt="oops" />
       <button onClick={handleBtn}>Click me</button> */}
-    </>
+    </React.Fragment>
   );
 }
 

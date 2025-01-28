@@ -25,6 +25,9 @@ import FormHandling from "./FormHandling";
 import MountingPhase from "./MountingPhase/indexA";
 import MountingPhaseB from "./MountingPhaseB/indexB";
 import ComponentUpdateCycleA from "./ComponentUpdatingCycleA";
+import Fragment from "./Fragment";
+import FragmentTable from "./FragmentTable";
+import FragmentTd from "./FragmentTd/index.jsx";
 export {
   Jsx,
   Withoutjsx,
@@ -49,4 +52,7 @@ export {
   MountingPhase,
   MountingPhaseB,
   ComponentUpdateCycleA,
+  Fragment,
+  FragmentTable,
+  FragmentTd,
 };
