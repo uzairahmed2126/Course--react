@@ -28,6 +28,9 @@ import ComponentUpdateCycleA from "./ComponentUpdatingCycleA";
 import Fragment from "./Fragment";
 import FragmentTable from "./FragmentTable";
 import FragmentTd from "./FragmentTd/index.jsx";
+import PureComp from "./PureComp/index.jsx";
+import RegComp from "./RegComp/index.jsx";
+import ParentComp from "./ParentComp/index.jsx";
 export {
   Jsx,
   Withoutjsx,
@@ -55,4 +58,7 @@ export {
   Fragment,
   FragmentTable,
   FragmentTd,
+  PureComp,
+  RegComp,
+  ParentComp,
 };

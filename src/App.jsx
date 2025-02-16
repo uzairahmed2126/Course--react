@@ -24,6 +24,8 @@ import {
   Fragment,
   FragmentTable,
   FragmentTd,
+  PureComp,
+  ParentComp,
 } from "./components/index";
 
 function App() {
@@ -39,7 +41,8 @@ function App() {
 
   return (
     <React.Fragment>
-      <FragmentTable />
+      <ParentComp />
+      {/* <FragmentTable /> */}
       {/* <Fragment /> */}
       {/* <ComponentUpdateCycleA /> */}
       {/* <MountingPhase /> */}
