@@ -26,6 +26,7 @@ import {
   FragmentTd,
   PureComp,
   ParentComp,
+  Memo,
 } from "./components/index";
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <React.Fragment>
+      {/* <Memo /> */}
       <ParentComp />
       {/* <FragmentTable /> */}
       {/* <Fragment /> */}

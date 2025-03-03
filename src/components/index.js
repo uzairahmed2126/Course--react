@@ -31,6 +31,7 @@ import FragmentTd from "./FragmentTd/index.jsx";
 import PureComp from "./PureComp/index.jsx";
 import RegComp from "./RegComp/index.jsx";
 import ParentComp from "./ParentComp/index.jsx";
+import Memo from "./Memo/index.jsx";
 export {
   Jsx,
   Withoutjsx,
@@ -61,4 +62,5 @@ export {
   PureComp,
   RegComp,
   ParentComp,
+  Memo
 };
