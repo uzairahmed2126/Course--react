@@ -42,8 +42,8 @@ function App() {
 
   return (
     <React.Fragment>
-      {/* <Memo /> */}
-      <ParentComp />
+      <Memo />
+      {/* <ParentComp /> */}
       {/* <FragmentTable /> */}
       {/* <Fragment /> */}
       {/* <ComponentUpdateCycleA /> */}
