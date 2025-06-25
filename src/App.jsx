@@ -27,6 +27,7 @@ import {
   PureComp,
   ParentComp,
   Memo,
+  ReactMemoParent,
 } from "./components/index";
 
 function App() {
@@ -39,10 +40,11 @@ function App() {
     setCount((prev) => prev + 1);
     setSrc(`https://picsum.photos/id/${randomNum}/200/300`);
   }
-
+  // const addName = prompt("Enter name");
   return (
     <React.Fragment>
-      <Memo />
+      <ReactMemoParent />
+      {/* <Memo /> */}
       {/* <ParentComp /> */}
       {/* <FragmentTable /> */}
       {/* <Fragment /> */}
