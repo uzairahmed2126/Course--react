@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Greet1, Class, Jsx, Props } from "./components/index.js";
+import { Greet1, Class, Jsx, Props, State } from "./components/index.js";
 
 // it is imported with curly braces due to single export and export make object that's why here is use object(destructuring)
 // import { Greet1 } from "./components/Greet1/app.jsx";
@@ -22,6 +22,7 @@ function App() {
 
       <Props name="Ahmed" />
       <Props name="Uzair Ahmed" /> */}
+      <State />
     </>
   );
 }
