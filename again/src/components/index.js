@@ -3,4 +3,5 @@ import Class from "./Class/app"
 import Jsx from "./Jsx/app";
 import Props from "./Props/app";
 import State from "./State/app"
-export {Greet1,Class,Jsx,Props,State}
+import SetState from "./SetState/app";
+export {Greet1,Class,Jsx,Props,State,SetState}
