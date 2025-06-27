@@ -7,6 +7,7 @@ import {
   Props,
   State,
   SetState,
+  BindingEventHandler,
 } from "./components/index.js";
 
 // it is imported with curly braces due to single export and export make object that's why here is use object(destructuring)
@@ -30,7 +31,8 @@ function App() {
       <Props name="Ahmed" />
       <Props name="Uzair Ahmed" /> */}
       {/* <State /> */}
-      <SetState />
+      {/* <SetState /> */}
+      <BindingEventHandler />
     </>
   );
 }

@@ -4,4 +4,5 @@ import Jsx from "./Jsx/app";
 import Props from "./Props/app";
 import State from "./State/app"
 import SetState from "./SetState/app";
-export {Greet1,Class,Jsx,Props,State,SetState}
+import BindingEventHandler from "./BindingEventHandler/app";
+export {Greet1,Class,Jsx,Props,State,SetState,BindingEventHandler}
